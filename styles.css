@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid_container {
+    width: 330px;
+    height: 320px;
+    border: 1px solid purple;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.content {
+    width: 20px;
+    height: 20px;
+    background-color: aliceblue;
+    border: 1px solid red;
+}
