@@ -63,7 +63,10 @@ body {
 h1 {
     font-family: 'Anton', sans-serif;
     color: #043425;
-    font-size: 52px;
+    font-size: 45px;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 25%;
 }
 
 .clouds {
@@ -71,6 +74,8 @@ h1 {
     width: auto;
     background-image: url(./images/clouds.png);
 }
+
+/* Containers */
 
 .contents {
     display: flex;
@@ -80,9 +85,27 @@ h1 {
 .decor_container {
     background-color: #52BB9D;
     width: 45%;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
 }
 
 .decor_container:before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+
+.grid_container {
+    min-width: 65%;
+    background-color: #C8FDD9;
+    display: inline-grid;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.grid_container:before {
     content: '';
     display: block;
     padding-top: 100%;
