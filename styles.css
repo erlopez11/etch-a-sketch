@@ -83,25 +83,28 @@ h1 {
 }
 
 .decor_container {
+    border: 1px solid red;
     background-color: #52BB9D;
     width: 45%;
     border-radius: 6px;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin-top: -50px;
 }
 
 .decor_container:before {
     content: '';
     display: block;
-    padding-top: 100%;
+    padding-top: 5%;
 }
 
 .grid_container {
+    border: 1px solid red;
     min-width: 65%;
     background-color: #C8FDD9;
     display: inline-grid;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 200px;
 }
 
@@ -109,4 +112,22 @@ h1 {
     content: '';
     display: block;
     padding-top: 100%;
+}
+
+/* Beemo face */
+
+.top_face {
+    border: 1px solid red;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 60px;
+    
+}
+.eye {
+    border: 1px solid red;
+    border-radius: 50%;
+    background-color: #1E1E1E;
+    width: 3vw;
+    height: 3vw;
 }
