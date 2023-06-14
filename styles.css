@@ -117,7 +117,6 @@ h1 {
 /* Beemo face */
 
 .top_face {
-    border: 1px solid red;
     width: 50%;
     display: flex;
     justify-content: space-evenly;
@@ -125,9 +124,21 @@ h1 {
     
 }
 .eye {
-    border: 1px solid red;
     border-radius: 50%;
     background-color: #1E1E1E;
     width: 3vw;
     height: 3vw;
 }
+
+.smile {
+    border: 4px solid #1E1E1E;
+    border-radius: 50%;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    width: 7vw;
+    height: 7vw;
+    margin-top: -30px;
+}
+
+/* Mode Button */
