@@ -2,6 +2,12 @@ const grid_container = document.querySelector('.grid_container');
 
 function getGridSize(gridSize) {
     gridSize = prompt('What size grid would you like?')
+
+    if (gridSize > '64') {
+        prompt("The grid size cannot be greater than 64.");
+    } else {
+        return parseInt(gridSize);
+    }
 }
 
 function createGrid(grid_number) {
@@ -34,7 +40,12 @@ document.querySelector("div").addEventListener(
 = color[(Math.floor(Math.random(".grid_container div") * color.length))];
 })*/
 
-createGrid(50);
+//createGrid(50);
 
+function createCanvas() {
+    let gridSize = getGridSize();
+    createGrid(gridSize);
+}
+createCanvas();
 
 
