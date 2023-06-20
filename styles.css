@@ -16,10 +16,6 @@ body {
 h1 {
     font-family: 'Anton', sans-serif;
     color: #043425;
-    font-size: 45px;
-    margin-top: 20px;
-    margin-left: 30px;
-    width: 25%;
 }
 
 .clouds {
@@ -37,26 +33,19 @@ h1 {
 
 .decor_container {
     background-color: #52BB9D;
-    width: 45%;
-    border-radius: 6px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: -50px;
 }
 
 .decor_container:before {
     content: '';
     display: block;
-    padding-top: 5%;
 }
 
 .grid_container {
-    min-width: 65%;
     background-color: #C8FDD9;
     display: inline-grid;
-    margin-top: 50px;
-    margin-bottom: 200px;
 }
 
 .grid_container:before {
@@ -68,17 +57,14 @@ h1 {
 /* Beemo face */
 
 .top_face {
-    width: 50%;
     display: flex;
     justify-content: space-evenly;
-    gap: 60px;
     
 }
+
 .eye {
     border-radius: 50%;
     background-color: #1E1E1E;
-    width: 3vw;
-    height: 3vw;
 }
 
 .smile {
@@ -87,16 +73,11 @@ h1 {
     border-top-color: transparent;
     border-left-color: transparent;
     border-right-color: transparent;
-    width: 7vw;
-    height: 7vw;
-    margin-top: -30px;
 }
 
 /* Mode Button */
 
 .button_slider{
-    margin-top: -160px;
-    margin-bottom: 50px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -107,44 +88,28 @@ button {
     border-radius: 50%;
     border: none;
     background-color: #F2254F;
-    width: 8vw;
-    height: 8vw;
 }
 
-button img {
-    width: 80%;
-    height: 80%;
-    padding: 2px;
-}
 
 input[type="range"] {
     -webkit-appearance: none;
     cursor: pointer;
     outline: none;
     background-color: #043425;
-    width: 20vw;
-    height: 10px;
 }
 
 input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
     width: 0;
     height: 0;
-    border-left: 2vw solid transparent;
-    border-right: 2vw solid transparent;
-    border-bottom: 4vw solid #FDD300;
 }
 
 .value_container {
     background-color: #00F538;
-    width: 15vw;
-    margin-top: 25px;
-    border-radius: 6px;
 }
 
 .value {
     font-family: 'Anton', sans-serif;
     color: #043425;
-    font-size: 16px;
     text-align: center;
 }
