@@ -1,50 +1,3 @@
-/** {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #00F1EC;
-    min-height: 100vh;
-    height: 100vh;
-    
-}
-
-.clouds {
-    height: 100vh;
-    width: auto;
-    background-image: url(./images/clouds.png);
-    background-repeat: repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid red;
-}
-
-.decor_container {
-    background-color: #52BB9D;
-    width: 95%;
-    height: 100%;
-    margin: 40px;
-    display: flex;
-    justify-content: center;
-    border: 1px solid red;
-    border-radius: 6px;
-}
-
-.grid_container {
-    min-width: 500px;
-    min-height: 500px;
-    border: 1px solid purple;
-    display: inline-grid;
-    margin-top: 100px;
-}
-
-.grid_square {
-    background-color: purple;
-    border: 1px solid red;
-} */
 
 /* Base Style */
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
@@ -83,7 +36,6 @@ h1 {
 }
 
 .decor_container {
-    border: 1px solid red;
     background-color: #52BB9D;
     width: 45%;
     border-radius: 6px;
@@ -100,7 +52,6 @@ h1 {
 }
 
 .grid_container {
-    border: 1px solid red;
     min-width: 65%;
     background-color: #C8FDD9;
     display: inline-grid;
@@ -142,3 +93,58 @@ h1 {
 }
 
 /* Mode Button */
+
+.button_slider{
+    margin-top: -160px;
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+button {
+    border-radius: 50%;
+    border: none;
+    background-color: #F2254F;
+    width: 8vw;
+    height: 8vw;
+}
+
+button img {
+    width: 80%;
+    height: 80%;
+    padding: 2px;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    cursor: pointer;
+    outline: none;
+    background-color: #043425;
+    width: 20vw;
+    height: 10px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 0;
+    height: 0;
+    border-left: 2vw solid transparent;
+    border-right: 2vw solid transparent;
+    border-bottom: 4vw solid #FDD300;
+}
+
+.value_container {
+    background-color: #00F538;
+    width: 15vw;
+    margin-top: 25px;
+    border-radius: 6px;
+}
+
+.value {
+    font-family: 'Anton', sans-serif;
+    color: #043425;
+    font-size: 16px;
+    text-align: center;
+}
