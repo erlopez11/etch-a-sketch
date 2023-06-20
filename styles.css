@@ -9,6 +9,7 @@
 
 body {
     background-color: #00F1EC;
+    font-size: 100%;
     min-height: 100vh;
     height: 100vh;
 }
@@ -36,6 +37,7 @@ h1 {
     display: flex;
     align-items: center;
     flex-direction: column;
+    border-radius: 6px;
 }
 
 .decor_container:before {
@@ -51,7 +53,7 @@ h1 {
 .grid_container:before {
     content: '';
     display: block;
-    padding-top: 100%;
+   
 }
 
 /* Beemo face */
@@ -112,4 +114,89 @@ input[type="range"]::-webkit-slider-thumb {
     font-family: 'Anton', sans-serif;
     color: #043425;
     text-align: center;
+}
+
+/* Media Queries */
+
+/*Mobile Style */
+@media only screen and (max-width: 400px) {
+    h1 {
+        font-size: 32px;
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    .decor_container {
+        width: 70%;
+        margin-top: 40px;
+    }
+
+    .decor_container:before {
+        padding-top: 10%;
+    }
+
+    .grid_container {
+        min-width: 75%;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
+    .grid_container:before {
+        padding-top: 100%;
+    }
+
+    .top_face {
+        width: 50%;
+        gap: 60px;
+    }
+
+    .eye {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .smile {
+        width: 10vw;
+        height: 10vw;
+        margin-top: -20px;
+    }
+
+    .button_slider {
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+
+    button {
+        width: 15vw;
+        height: 15vw;
+    }
+
+    button img {
+        width: 80%;
+        height: 80%;
+        padding: 2px;
+    }
+
+    input[type="range"] {
+        width: 30vw;
+        height: 2vw;
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+        border-left: 3vw solid transparent;
+        border-right: 3vw solid transparent;
+        border-bottom: 5vw solid #FDD300;
+    }
+
+    .value_container {
+        width: 30vw;
+        margin-top: 25px;
+        border-radius: 6px;
+    }
+
+    .value {
+        font-size: 12px;
+    }
+
+    
 }
