@@ -27,7 +27,7 @@ function createGrid(grid_number) {
 
 
 function changeColor(event) {
-    this.style.backgroundColor = '#3C9EE7';
+    this.style.backgroundColor = '#011999';
 }
 
 
