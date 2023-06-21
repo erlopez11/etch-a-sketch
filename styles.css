@@ -200,3 +200,85 @@ input[type="range"]::-webkit-slider-thumb {
 
     
 }
+
+/* Tablet Style */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    h1 {
+        font-size: 48px;
+        text-align: center;
+        padding-top: 25px;
+    }
+
+    .decor_container {
+        width: 80%;
+        margin-top: 60px;
+    }
+
+    .decor_container:before {
+        padding-top: 10%;
+    }
+
+    .grid_container {
+        min-width: 75%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .grid_container:before {
+        padding-top: 100%;
+    }
+
+    .top_face {
+        width: 50%;
+        gap: 60px;
+    }
+
+    .eye {
+        width: 4vw;
+        height: 4vw;
+    }
+
+    .smile {
+        width: 8vw;
+        height: 8vw;
+        margin-top: -50px;
+    }
+
+    .button_slider {
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+
+    button {
+        width: 12vw;
+        height: 12vw;
+    }
+
+    button img {
+        width: 80%;
+        height: 80%;
+        padding: 2px;
+    }
+
+    input[type="range"] {
+        width: 40vw;
+        height: 3vw;
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+        border-left: 3vw solid transparent;
+        border-right: 3vw solid transparent;
+        border-bottom: 5vw solid #FDD300;
+    }
+
+    .value_container {
+        width: 40vw;
+        margin-top: 25px;
+        border-radius: 6px;
+    }
+
+    .value {
+        font-size: 20px;
+    }
+
+}
