@@ -83,6 +83,13 @@ button {
     background-color: #F2254F;
 }
 
+.material-symbols-outlined {
+    color: #043425;
+}
+
+.material-symbols-outlined.md-48 {
+    font-size: 48px;
+}
 
 input[type="range"] {
     -webkit-appearance: none;
@@ -168,10 +175,8 @@ input[type="range"]::-webkit-slider-thumb {
         height: 15vw;
     }
 
-    button img {
-        width: 80%;
-        height: 80%;
-        padding: 2px;
+    .material-symbols-outlined.md-24 {
+        font-size: 24px;
     }
 
     input[type="range"] {
@@ -237,7 +242,7 @@ input[type="range"]::-webkit-slider-thumb {
     .smile {
         width: 8vw;
         height: 8vw;
-        margin-top: -50px;
+        margin-top: -30px;
         border: 6px solid #1E1E1E;
         border-radius: 50%;
         border-top-color: transparent;
@@ -253,12 +258,6 @@ input[type="range"]::-webkit-slider-thumb {
     button {
         width: 12vw;
         height: 12vw;
-    }
-
-    button img {
-        width: 80%;
-        height: 80%;
-        padding: 2px;
     }
 
     input[type="range"] {
@@ -341,12 +340,6 @@ input[type="range"]::-webkit-slider-thumb {
         height: 8vw;
     }
 
-    button img {
-        width: 80%;
-        height: 80%;
-        padding: 2px;
-    }
-
     input[type="range"] {
         width: 15vw;
         height: 1vw;
@@ -426,12 +419,6 @@ input[type="range"]::-webkit-slider-thumb {
         height: 5vw;
     }
 
-    button img {
-        width: 80%;
-        height: 80%;
-        padding: 2px;
-    }
-
     input[type="range"] {
         width: 15vw;
         height: 1vw;
@@ -452,3 +439,39 @@ input[type="range"]::-webkit-slider-thumb {
         font-size: 20px;
     }
 }
+
+/* Dark Mode Styles 
+
+.body_dark {
+    background-color: #001528;
+}
+
+.font_dark {
+    color: #AFA6E8;
+}
+
+.container_dark {
+    background-color: #252C6C;
+}
+
+.grid_dark {
+    /* need to add glow effect 
+    background-color: #AFA6E8;
+}
+
+.eye_dark {
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.button_dark {
+    background-color: #8B4297;
+}
+
+.img_dark {
+    background-color: #AFA6E8;
+}
+*/
+
+
