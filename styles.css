@@ -440,7 +440,7 @@ input[type="range"]::-webkit-slider-thumb {
     }
 }
 
-/* Dark Mode Styles 
+/* Dark Mode Styles */ 
 
 .body_dark {
     background-color: #001528;
@@ -455,7 +455,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .grid_dark {
-    /* need to add glow effect 
+    /* need to add glow effect*/
     background-color: #AFA6E8;
 }
 
@@ -470,8 +470,19 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .img_dark {
-    background-color: #AFA6E8;
+    color: #AFA6E8;
 }
-*/
+
+#dark_range {
+    background-color: #021827;
+}
+
+.slider_dark::-webkit-slider-thumb {
+    border-bottom-color: #7B35A7 !important;
+}
+
+.value_dark {
+    background-color: #3A1053;
+}
 
 
