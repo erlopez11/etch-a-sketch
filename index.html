@@ -4,28 +4,28 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Etch-A-Sketch</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles.css" id="theme-link">
         <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     </head>
-    <body class="body_dark">
+    <body>
         <div class="clouds">
-          <h1 class="font_dark">Etch-A-Sketch</h1>
+          <h1>Etch-A-Sketch</h1>
           <div class="contents">
-            <div class="decor_container container_dark">
+            <div class="decor_container">
               <div class="top_face">
-                <div class="eye eye_dark"></div>
-                <div class="eye eye_dark"></div>
+                <div class="eye"></div>
+                <div class="eye"></div>
               </div>
               <div class="smile"></div>
-              <div class="grid_container grid_dark"></div>
+              <div class="grid_container"></div>
               <div class="button_slider">
-                <button class="button_dark" onclick="toggleDark()"><span class="material-symbols-outlined md-48 md-24 img_dark">
+                <button class="button_dark"><span class="material-symbols-outlined md-48 md-24">
                   dark_mode</span>
                 </button>
                 <div class="slider_container">
-                  <input type="range" min="1" max="64" value="20" class="slider slider_dark" id="dark_range">
-                  <div class="value_container value_dark">
-                    <p class="value font_reg font_dark">Grid Size: <span class="slider_value font_reg font_dark"></span></p>
+                  <input type="range" min="1" max="64" value="20" class="slider">
+                  <div class="value_container">
+                    <p class="value font_reg font_dark">Grid Size: <span class="slider_value"></span></p>
                   </div>
                 </div>
               </div>
