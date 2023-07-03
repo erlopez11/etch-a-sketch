@@ -22,7 +22,7 @@ h1 {
 .clouds {
     height: 100vh;
     width: auto;
-    background-image: url(./images/clouds.png);
+    background-image: url(./images/cloudsNight.png);
 }
 
 /* Containers */
