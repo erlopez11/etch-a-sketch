@@ -1,4 +1,4 @@
-# etch-a-sketch
+# Etch-A-Sketch
 A reminagined etch-a-sketch for drawing.
 
 ## Description
