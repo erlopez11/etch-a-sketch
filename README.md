@@ -1,8 +1,7 @@
 # Etch-A-Sketch
+A reminagined etch-a-sketch for drawing using colored squared boxes that can change size based on the size of the grid.
 
 <img width="1091" alt="etch-a-sketch-sample" src="https://github.com/erlopez11/etch-a-sketch/assets/101296798/2d9886e8-2426-4735-9288-75b672edc047">
-
-A reminagined etch-a-sketch for drawing using colored squared boxes that can change size based on the size of the grid.
 
 ## Description
 This project allows the user to create a continuous line drawing similar to that of a real life etch-a-sketch. Unlike a normal etch-a-sketch, the user is able to adjust the size of the grid using a slider at the bottom of that screen. The grid sizes range from a length and height of 1 square to 64 squares. The round button allows the user to toggel between light and dark mode. This project was built as an assignment for _The Odin Project_ foundations course.
