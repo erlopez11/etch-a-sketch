@@ -1,4 +1,7 @@
 # Etch-A-Sketch
+
+<img width="1091" alt="etch-a-sketch-sample" src="https://github.com/erlopez11/etch-a-sketch/assets/101296798/2d9886e8-2426-4735-9288-75b672edc047">
+
 A reminagined etch-a-sketch for drawing using colored squared boxes that can change size based on the size of the grid.
 
 ## Description
